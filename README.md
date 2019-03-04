@@ -79,7 +79,7 @@ Takes an optional locale, uses the default locale if not specified.
 (last-execution-date my-cron-instance) ; => java.time.ZonedDateTime
 ```
 
-Two similar functions are also provided which return instances of a java.time.Duration.
+Two similar functions are also provided which return instances of a ```java.time.Duration```.
 
 ```clojure
 (time-until-next-execution my-cron-instance) ; => java.time.Duration
