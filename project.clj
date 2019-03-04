@@ -1,4 +1,4 @@
-(defproject cronjure "0.1.0"
+(defproject cronjure "0.1.1"
   :description "Cronjure is a thin Clojure wrapper for the popular cron-utils library."
   :url "https://github.com/Astronought/cronjure"
   :license {:name "Eclipse Public License - v 1.0"

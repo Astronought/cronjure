@@ -82,7 +82,7 @@ Takes an optional locale, uses the default locale if not specified.
 Two similar functions are also provided which return instances of a ```java.time.Duration```.
 
 ```clojure
-(time-until-next-execution my-cron-instance) ; => java.time.Duration
+(time-to-next-execution my-cron-instance) ; => java.time.Duration
 
 (time-since-last-execution my-cron-instance) ; => java.time.Duration
 ```
@@ -90,9 +90,9 @@ Two similar functions are also provided which return instances of a ```java.time
 A format can be optionally supplied.
 
 ```clojure
-(time-until-next-execution my-cron-instance :minutes) ; => e.g. 42
+(time-to-next-execution my-cron-instance :minutes) ; => e.g. 42
 
-(time-until-next-execution my-cron-instance :seconds) ; => e.g. 2520
+(time-to-next-execution my-cron-instance :seconds) ; => e.g. 2520
 ```
 
 ### Parsing

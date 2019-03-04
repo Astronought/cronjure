@@ -82,7 +82,7 @@
       (.lastExecution (ZonedDateTime/now))
       .get))
 
-(defn time-until-next-execution
+(defn time-to-next-execution
   ([cron-instance]
    (time-to-next-execution cron-instance nil))
   ([cron-instance format]
