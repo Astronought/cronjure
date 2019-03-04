@@ -7,13 +7,13 @@ Cronjure is a thin Clojure wrapper for the popular [cron-utils](https://github.c
 ### Leiningen
 
 ```clojure
-[cronjure "0.1.0"]
+[cronjure "0.1.1"]
 ```
 
 ### Deps.edn
 
 ```clojure
-{cronjure {:mvn/version "0.1.0"}}
+{cronjure {:mvn/version "0.1.1"}}
 ```
 
 ## Usage
